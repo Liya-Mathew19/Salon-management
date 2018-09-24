@@ -1,0 +1,12 @@
+<?php
+ if(isset($_POST['cmd']))
+ {
+          $a=$_POST['cust_name'];
+		   $b=$_POST['add1'];
+		    $c=$_POST['add2'];
+			 $d=$_POST['district'];
+			  $e=$_POST['pin'];
+			   $f=$_POST['phone'];
+			   header("location:purchase_payment.php");
+ }
+      ?>
